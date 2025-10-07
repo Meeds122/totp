@@ -21,9 +21,6 @@ pub:
 // pub fn (auth Authenticator) generate_uri (issuer string, account string) string
 // pub fn generate_secret(size int) !string
 
-// TODOs:
-// - Check for V feature to cleanup crypto memory
-
 pub fn new () !Authenticator {
 	return Authenticator{
 		secret: generate_secret(16)!
