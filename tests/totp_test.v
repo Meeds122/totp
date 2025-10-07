@@ -2,6 +2,15 @@ import totp
 
 import time
 
+fn test_generate_totp(){
+    auth := totp.Authenticator{
+        secret: 'JBSWY3DPEHPK3PXP'
+        time_step: 30
+        digits: 6
+    }
+    assert auth.generate_totp(i64(1759865096))! == '206411'
+}
+
 fn test_new_and_check(){
     auth := totp.new()!
     code := auth.generate_totp(time.now().unix())!
