@@ -37,7 +37,7 @@ A window of 2 would make all of the codes marked with 0 1 or 2 valid, etc.
 
 1: 548362
 
-0: 105612
+0: 105612 <-- Current Valid Code
 
 1: 000353
 
