@@ -31,9 +31,19 @@ For example, a window of 3 would make all of these codes valid.
 
 A window of 2 would make all of the codes marked with 0 1 or 2 valid, etc.
 
-   3      2      1      0 	  1      2      3
+3: 157345
 
-157345 924743 548362 105612 000353 228123 495432
+2: 924743
+
+1: 548362
+
+0: 105612
+
+1: 000353
+
+2: 228123
+
+3: 495432
 
 Start with maximum restriction (0) and only reduce security if absolutely required.
 
